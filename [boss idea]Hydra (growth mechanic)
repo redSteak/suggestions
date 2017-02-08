@@ -1,0 +1,22 @@
+Abilities:
+*fire ball - fires an AoE magical dmg blast.
+*fire breath - channels a cone of magical DoT in front of the head. the cone rotates around as the head spins slightly.
+
+When a head dies, trigger the following:
+*stun Hydra for 15 sec.
+*make all heads invicable for 15 sec.
+*summon item "great torch" in 1 of 4 corners of the arena randomly.
+*rain meteors from the sky which deal physical dmg & heavily knock-back (meteors are marked by thier shadows).
+
+When "great torch" is activated on Hydra, trigger the following:
+*stop deploying meteors.
+*destroy item "great torch".
+*purge Hydra.
+
+When Hydra is no longer stunned, trigger the following:
+*stop deploying meteors.
+*destroy item "great torch"
+*purge hydra
+*create 2 Hydra Heads (heads are always in the location of Hydra, each head is an individual target, each head has separate cooldowns) (the head that died does not come back to life).
+
+When no heads are alive: Hydra dies, boss battle ended.
